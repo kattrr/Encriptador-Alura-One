@@ -15,7 +15,7 @@ function desencriptar() {
         document.getElementById('textArea').value = textoCifrado;
         tituloMensaje.textContent = "Texto desencriptado con éxito";
         parrafo.textContent = "";
-        imgo.src = "./Img/img2.png"
+        img.src = "../Img/img2.png"
       } else {
         img.src = "./Img/img3.png";
         alert("Ingrese un texto primero");
