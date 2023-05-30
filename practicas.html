@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/encriptador.css">
+    <title>Encriptador de Texto</title>
+  
+</head>
+<body>
+    <div class="contenedor">
+        <div class="encrip">
+            <textarea id="textArea" cols="30" rows="10" placeholder="Ingrese el Texto Aquí" class="ingresoTexto"></textarea>
+            <div class="condiciones">
+                <p>Por Favor, No introduzca Acéntos</p>
+            </div>
+            <div class="btns">
+                <button type="button" class="btn-en" onclick="encriptar()">Encriptar</button>
+                <button type="button" class="btn-desen" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        
+        <div class="resultados">
+            <img src="./Img/Muñeco.png" alt="" id="img1" class="img1">
+            <div class="smsEncriptado" id="smsEncriptado">
+                <h2 id="tituloSms">Ingresa un Texto para Empezar!</h2>
+                <p id="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <textarea name="sms" id="sms" cols="30" rows="10" class="sms"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./JS/encriptar.js"></script>
+<script src="./JS/desencriptar.js"></script>
+</html>
