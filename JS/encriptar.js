@@ -14,10 +14,10 @@ function encriptar() {
         document.getElementById('textArea').value = textoEncriptado;
         tituloMensaje.textContent = "Texto Encriptado Exitosamente!";
         parrafo.textContent = "";
-        img.src = "../Img/img2.png";
+        img.src = "./Img/img2.png";
     }else{
         alert("Ingrese un texto primero");
-        img.src = "../Img/img3.png";
+        img.src = "./Img/img3.png";
         tituloMensaje.textContent = "No se ha encontrado ningun mensaje";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
     }
